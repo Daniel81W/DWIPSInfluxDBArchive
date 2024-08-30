@@ -1,12 +1,12 @@
 {
-    "id": "{022D6B3D-0A0C-4AEB-80A1-8BC5DF7CA63C}",
-    "author": "Michael Tröger",
-    "name": "MySQLArchive Library",
-    "url": "https://github.com/Nall-chan/MySQLArchive",
+    "id": "{AD2A56F6-E77E-1782-F69F-0C074BDA3577}",
+    "author": "Daniel Weber",
+    "name": "DWIPS InfluxDB Archive Library",
+    "url": "https://github.com/Daniel81W/DWIPSInfluxDBArchive",
     "compatibility": {
         "version": "5.1"
     },
-    "version": "3.35",
-    "build": 335,
-    "date": 1609865888
+    "version": "0.1",
+    "build": 1,
+    "date": 1725045895
 }

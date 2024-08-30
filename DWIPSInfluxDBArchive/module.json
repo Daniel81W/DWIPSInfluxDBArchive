@@ -1,0 +1,14 @@
+{
+    "id": "{40BF3C50-7C8B-0BF4-3529-DB41B9CB3914}",
+    "name": "InfluxDB Archive",
+    "type": 0,
+    "vendor": "DWIPS",
+    "aliases": [
+        "Archiv InfluxDB"
+    ],
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "DWIPSINFLUXDB",
+    "url": "https://github.com/Daniel81W/DWIPSInfluxDBArchive"
+}

@@ -6,14 +6,14 @@ require_once __DIR__ . '/../libs/MySQLArchiv.php';  // diverse Klassen
 eval('namespace MySqlArchive {?>' . file_get_contents(__DIR__ . '/../libs/helper/SemaphoreHelper.php') . '}');
 
 /**
- * ArchiveControlMySQL Klasse für die das loggen von Variablen in einer MySQL Datenbank.
+ * DWIPSInfluxDBArchive Klasse für die das loggen von Variablen in einer InfluxDB Datenbank.
  * Erweitert ipsmodule.
  *
- * @author        Michael Tröger <micha@nall-chan.net>
- * @copyright     2019 Michael Tröger
- * @license       https://creativecommons.org/licenses/by-nc-sa/4.0/ CC BY-NC-SA 4.0
+ * @author        Daniel Weber <it@dan-web.de>
+ * @copyright     2024 Daniel Weber
+ * @license       https://creativecommons.org/licenses/by-nc-sa/4.0/ CC BY-NC-SA 4.0. This work, "DWIPSInfluxDBArchive", is adapted from "ArchiveControlMySQL" by Michael Tröger, used under CC BY 4.0. "DWIPSInfluxDBArchive" is licensed under CC BY 4.0 by Daniel Weber.
  *
- * @version       3.30
+ * @version       0.1
  *
  * @example <b>Ohne</b>
  *
@@ -21,7 +21,7 @@ eval('namespace MySqlArchive {?>' . file_get_contents(__DIR__ . '/../libs/helper
  * @property array $Buffer
  * @property mysqli $DB
  */
-class ArchiveControlMySQL extends ipsmodule
+class DWIPSInfluxDBArchive extends ipsmodule
 {
     use \MySqlArchive\Semaphore,
         \MySqlArchive\BufferHelper,
